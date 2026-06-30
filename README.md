@@ -9,9 +9,10 @@ A robust, content-based book recommendation engine built using **FastAPI** and *
 *   **Environment Ready**: Includes `.gitignore` and `requirements.txt` to ensure clean, reproducible deployments.
 
 ## 🛠 Tech Stack
-*   **Backend**: Python, FastAPI
-*   **Data Processing**: Pandas, Scikit-learn
-*   **Version Control**: Git/GitHub
+* **Backend**: Python, FastAPI
+* **Frontend**: Streamlit
+* **Data Processing**: Pandas, Scikit-learn
+* **Version Control**: Git/GitHub
 
 ## 📋 Project Structure
 ```text
@@ -48,3 +49,8 @@ pip install -r requirements.txt
 Bash
 uvicorn app.main:app --reload
 The API will be live at: [http://127.0.0.1:8000](http://127.0.0.1:8000)
+
+5.Run the Streamlit UI:
+Bash
+streamlit run app_ui.py
+The UI will be live at http://localhost:8501
